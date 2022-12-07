@@ -12,6 +12,8 @@ public class FurnitureFactory {
 			return new PlasticFactory();
 		case WOOD:
 			return new WoodFactory();
+		case PAPER:
+			return new PaperFactory();
 		default:
 			throw new IllegalArgumentException("Invalid MaterialType");
 		}

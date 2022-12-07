@@ -1,5 +1,5 @@
 package stackjava.design.pattern.creational.abstractfactory;
 
-public enum MaterialType {
-	WOOD, PLASTIC, PAPER
+public interface Hat {
+	void create();
 }

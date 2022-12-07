@@ -1,17 +1,17 @@
 package stackjava.design.pattern.creational.abstractfactory;
 
-public class PlasticFactory implements FurnitureAbstractFactory {
+public class PaperFactory implements FurnitureAbstractFactory {
 
 	public Chair createChair() {
-		return new PlasticChair();
+		return new PaperChair();
 	}
 
 	public Table createTable() {
-		return new PlasticTable();
+		return new PaperTable();
 	}
 
 	public Hat createHat() {
-		return new PlasticHat();
+		return new PaperHat();
 	}
 
 }

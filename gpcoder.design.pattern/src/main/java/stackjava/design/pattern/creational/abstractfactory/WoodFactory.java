@@ -10,4 +10,8 @@ public class WoodFactory implements FurnitureAbstractFactory {
 		return new WoodTable();
 	}
 
+	public Hat createHat() {
+		return new WoodHat();
+	}
+
 }
