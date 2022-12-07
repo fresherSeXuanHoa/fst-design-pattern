@@ -11,5 +11,8 @@ public class Application {
 		
 		documentService.setState(new RejectedState());
 		documentService.checkState();
+		
+		documentService.setState(new DraftState());
+		documentService.checkState();
 	}
 }
